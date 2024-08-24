@@ -1,3 +1,83 @@
-baseURL: https://example.org/
+baseURL: ""
 languageCode: en-us
-title: My New Hugo Site
+title: Hien Tran
+theme: ["PaperMod"]
+
+menu:
+  main:
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 1
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: snippets
+      name: Snippets
+      url: /snippets/
+      weight: 20
+    - identifier: tag
+      name: Tags
+      url: /tags/
+      weight: 30
+    - identifier: substack
+      name: Substack
+      url: https://unfoldingcomplexity.substack.com
+      weight: 40
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 50
+    - identifier: search
+      name: Search
+      url: search/
+      weight: 60
+params:
+  ShowReadingTime: true
+  ShowWordCount: true
+  ShowShareButtons: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  defaultTheme: auto # dark, light
+  homeInfoParams:
+    Title: Hi, I'm Hien 👋
+    Content: >
+      I am a seasoned technology leader by day and an indie software engineer by night.
+      
+      - This is my sacred space where I share insights on engineering best practices, discuss my current projects, and explore the nuances of leadership.
+  socialIcons:
+    - name: x
+      url: https://x.com/trqhien
+    - name: github
+      url: https://github.com/trqhien
+    - name: substack
+      url: https://unfoldingcomplexity.substack.com
+    - name: linkedin
+      url: https://linkedin.com/in/trqhien
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
