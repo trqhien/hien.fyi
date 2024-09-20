@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Hien Tran</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://hien.fyi/posts/</link>
     <description>Recent content in Posts on Hien Tran</description>
     <generator>Hugo -- 0.133.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 11 Aug 2024 17:11:25 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://hien.fyi/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Unlocking more power from enums with CasePath</title>
-      <link>http://localhost:1313/posts/unlocking-more-power-from-enums-with-casepath/</link>
+      <link>https://hien.fyi/posts/unlocking-more-power-from-enums-with-casepath/</link>
       <pubDate>Sun, 11 Aug 2024 17:11:25 +0700</pubDate>
-      <guid>http://localhost:1313/posts/unlocking-more-power-from-enums-with-casepath/</guid>
+      <guid>https://hien.fyi/posts/unlocking-more-power-from-enums-with-casepath/</guid>
       <description>Adding key path and dynamic lookup support for enum with swift-case-paths</description>
     </item>
   </channel>
